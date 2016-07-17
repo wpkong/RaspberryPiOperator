@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cmd"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="命令行" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="摄像头" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="麦克风" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="语音交互" />
+    </group>
+
+    <item android:title="小功能">
+        <menu>
+            <item
+                android:id="@+id/nav_beep"
+                android:icon="@drawable/ic_menu_share"
+                android:title="蜂鸣器" />
+            <item
+                android:id="@+id/nav_pictures"
+                android:icon="@drawable/ic_menu_send"
+                android:title="照片" />
+        </menu>
+    </item>
+
+</menu>
